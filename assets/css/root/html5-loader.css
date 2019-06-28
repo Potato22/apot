@@ -7,7 +7,8 @@
   flex-direction: column;
   justify-content: flex-end;
   user-select: none;
-  display: none;
+  pointer-events: none;
+  /*display: none;*/
 }
 
 .white-solid {
@@ -17,9 +18,28 @@
   justify-content: center;
   align-items: center;
   z-index: 200;
-  background: white;
+  background: rgb(0,0,0);
   animation: minimizeloader 0.4s forwards 5s cubic-bezier(.49,.02,.55,1);
   position: absolute;
+}
+
+.lillogo {
+  width: 50px;
+  height: 50px;
+  background: url('../../../assets/img/local/icon/Potweb_default.png');
+  background-position: center;
+  background-size: cover;
+  animation: whothis 1s forwards;
+  opacity: 0;
+}
+
+@keyframes whothis {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .indicator {
@@ -96,24 +116,6 @@
   to {
     opacity: 1;
   }
-}
-
-.outer {
-  width: 70px;
-  height: 70px;
-  /*border: black 2px;*/
-  border-radius: 50%;
-  animation: spinouter 2s cubic-bezier(.08,.22,0,.99) infinite;
-  transition: border 0.2s cubic-bezier(.66,.02,.88,.32);
-}
-
-.inner {
-  width: 30px;
-  height: 30px;
-  border: solid white 1px;
-  position: absolute;
-  border-radius: 50%;
-  animation: spinouter 2s cubic-bezier(.08,.22,0,.99) 1.5s infinite;
 }
 
 @keyframes spinouter {
