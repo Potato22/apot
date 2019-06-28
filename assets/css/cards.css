@@ -1,0 +1,142 @@
+.page-cards {
+  max-width: 700px;
+  min-height: 100px;
+  background: rgb(20,20,20);
+  border-radius: 10px;
+  align-self: flex-start;
+  padding: 2rem;
+  border-top: 1em solid rgb(255,197,48);
+  border-left: 2px solid rgb(255,197,48);
+}
+
+.cardtitle {
+  color: rgb(255,197,48);
+  font-family: 'IBM Plex Mono';
+}
+
+@media (max-width: 520px) {
+  .cardtitle {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .cardtitle {
+    font-size: 1.2rem;
+  }
+}
+
+.carddesc {
+  color: rgb(112,112,112);
+  font-family: 'Roboto Condensed';
+}
+
+.cardpar {
+  color: white;
+  font-family: 'Roboto';
+  margin-top: 1rem;
+}
+
+.cardlist {
+  color: white;
+}
+
+.parlink {
+  color: rgb(255,197,48);
+}
+
+.cardimg {
+  max-width: 100%;
+  align-self: center;
+}
+
+code {
+  color: rgb(255,217,118);
+}
+
+.thumb--flex {
+  max-width: 100%;
+  /*max-height: 340px;*/
+  display: flex;
+  justify-content: center;
+}
+
+.thumb {
+  margin-bottom: 2rem;
+  height: 280px;
+  background: rgb(47,47,47);
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+.cardgrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1em;
+  /*justify-content: space-around;*/
+  align-items: center;
+}
+
+.cardflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.endcards {
+  color: rgba(255,255,255,0.18);
+  font-family: 'IBM Plex Mono';
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: -1em;
+  user-select: none;
+}
+
+@media (max-width: 820px) {
+  .cardgrid {
+    grid-template-columns: auto;
+  }
+}
+
+.thumb.block--start {
+  background: url('../../assets/img/local/potbanner.png') rgb(47,47,47);
+  background-position: center;
+  background-size: cover;
+}
+
+.page-cards.startbox {
+  /*height: 400px;*/
+  grid-column-start: 1;
+  /*grid-column-end: 3;*/
+  border: 2px solid rgb(255,197,48);
+  background: none;
+}
+
+.page-cards.bio {
+  /*height: 600px;*/
+}
+
+.twitter-timeline {
+  width: 100%;
+  height: 100%;
+}
+
+.twitter {
+  width: 100%;
+  height: 420px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.thumb--flex.artgal {
+  border-left: 0px solid rgb(255,197,48);
+  border-radius: 10px;
+  transition: all 0.2s 0.5s;
+}
+
+.thumb--flex.artgal:hover {
+  border-left-width: 15px;
+  transition-delay: 0s;
+}
+

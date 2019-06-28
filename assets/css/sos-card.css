@@ -1,0 +1,133 @@
+.component {
+  color: rgb(62, 62, 62);
+  /*width: 300px;*/
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
+  transition-duration: 0.3s;
+  font-family: inherit;
+}
+
+.component {
+  max-width: 300px;
+}
+
+/* You could change the font family. */
+
+.component:hover {
+  transform: scale(1.05);
+}
+
+.picture-sec {
+  /*width: 300px;*/
+  height: 180px;
+  /*border-radius: 10px 10px 0px 0px;*/
+  overflow: hidden;
+}
+
+.picture {
+  background: grey;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  transition-duration: 1s;
+}
+
+.component:hover .picture {
+  transform: scale(1.1);
+}
+
+.component:hover .picture-sec {
+  height: 180px;
+}
+
+.picture.b2 {
+  background: url('../../assets/img/cards/socialcards3b.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.picture.b3 {
+  background: url('../../assets/img/cards/socialcards4.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.picture.b1 {
+  background: url('../../assets/img/cards/socialcards.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.titledesc {
+  background: white;
+  /*width: 300px;*/
+  /*height: 130px;*/
+  /*border-radius: 0px 0px 30px 30px;*/
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.title {
+  font-size: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.desc {
+  /*margin: 10px;*/
+  font-size: 14px;
+  /*margin-top: -15px;*/
+  overflow: hidden;
+  word-wrap: break-word;
+  height: 50px;
+}
+
+/* enable the height on the .desc class to enable fixed dimensions. */
+
+.thaticon {
+  margin-bottom: 5px;
+  /*padding: 0 8px;*/
+  text-align: right;
+}
+
+.material-icons.link-indicator {
+  /*margin-top: 5px;*/
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+.component:hover .material-icons.link-indicator {
+  /*color: #f0c470;*/
+}
+
+.component:hover .material-icons.link-indicator.b1 {
+  color: rgb(29,161,242);
+}
+
+.component:hover .material-icons.link-indicator.b2 {
+  color: rgb(0,229,155);
+}
+
+.component:hover .material-icons.link-indicator.b3 {
+  color: rgb(255,0,0);
+}
+
+.link-jump {
+  text-decoration: none;
+  color: rgb(62, 62, 62);
+  margin: 0px;
+}
+
+.link-jump:hover {
+  text-decoration: none;
+  color: rgb(62, 62, 62);
+  margin: 0px;
+}
+
