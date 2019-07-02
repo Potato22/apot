@@ -1,7 +1,7 @@
 .pagewrapper {
   width: 100%;
   background: rgb(12,12,12);
-  padding: 2em 2em 2em 6em;
+  padding: 2em 2em 2em 26em;
   transition: all 0.2s;
   display: grid;
   grid-template-columns: auto;
@@ -9,7 +9,21 @@
   justify-content: center;
 }
 
-.pagewrapper.bar--off {
-  padding: 2em;
+@media (max-width: 1220px) {
+  .pagewrapper {
+    padding-left: 6em;
+  }
+}
+
+@media (min-width: 1220px) {
+  .pagewrapper.bar--off {
+    padding-left: 6em;
+  }
+}
+
+@media (max-width: 1220px) {
+  .pagewrapper.bar--off {
+    padding-left: 2em;
+  }
 }
 

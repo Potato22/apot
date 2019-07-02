@@ -5,12 +5,12 @@
   border-radius: 10px;
   align-self: flex-start;
   padding: 2rem;
-  border-top: 1em solid rgb(255,197,48);
-  border-left: 2px solid rgb(255,197,48);
+  border-top: 1em solid rgb(131,225,255);
+  border-left: 2px solid rgb(131,225,255);
 }
 
 .cardtitle {
-  color: rgb(255,197,48);
+  color: rgb(113,195,255);
   font-family: 'IBM Plex Mono';
 }
 
@@ -42,7 +42,7 @@
 }
 
 .parlink {
-  color: rgb(255,197,48);
+  color: rgb(131,225,255);
 }
 
 .cardimg {
@@ -51,7 +51,7 @@
 }
 
 code {
-  color: rgb(255,217,118);
+  color: rgb(172,235,255);
 }
 
 .thumb--flex {
@@ -109,7 +109,7 @@ code {
   /*height: 400px;*/
   grid-column-start: 1;
   /*grid-column-end: 3;*/
-  border: 2px solid rgb(255,197,48);
+  border: 2px solid rgb(131,225,255);
   background: none;
 }
 
@@ -130,7 +130,7 @@ code {
 }
 
 .thumb--flex.artgal {
-  border-left: 0px solid rgb(255,197,48);
+  border-left: 0px solid rgb(131,225,255);
   border-radius: 10px;
   transition: all 0.2s 0.5s;
 }

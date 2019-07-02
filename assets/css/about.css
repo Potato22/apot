@@ -1,0 +1,45 @@
+.about {
+  width: 100%;
+  height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardos {
+  border: 2px solid rgb(255,255,255);
+  padding: 0 1em;
+  border-radius: 10px;
+  font-family: 'IBM Plex Mono';
+  font-weight: 100;
+  color: white;
+  animation: fados 1s forwards;
+  opacity: 0;
+}
+
+.heh {
+  margin: 0;
+}
+
+.cardosso {
+  color: white;
+  font-size: 2em;
+  animation: fados 1s forwards 0.5s;
+  opacity: 0;
+}
+
+.fab.comp, .fas.comp {
+  margin: 0 1em;
+}
+
+@keyframes fados {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
