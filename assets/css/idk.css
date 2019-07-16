@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.flexcenter {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.vectorimg {
+    width: 95%;
+    height: 95%;
+}
+.vectorimg.img {
+    background: url('../../assets/img/idontfuckingknow/rasp.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
