@@ -26,7 +26,7 @@
 .lillogo {
   width: 50px;
   height: 50px;
-  background: url('../../../assets/img/local/icon/Potweb_default.png');
+  background: url('../../../assets/img/local/icon/Potweb.svg');
   background-position: center;
   background-size: cover;
   animation: whothis 1s forwards;
