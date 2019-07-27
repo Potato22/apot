@@ -6,7 +6,7 @@
   align-self: flex-start;
   padding: 2rem;
   border-top: 1em solid rgb(131,225,255);
-  border-left: 2px solid rgb(131,225,255);
+  /*border-left: 2px solid rgb(131,225,255);*/
 }
 
 .cardtitle {

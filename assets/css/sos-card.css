@@ -103,9 +103,9 @@
   transition: all 0.3s;
 }
 
-.component:hover .material-icons.link-indicator {
-  /*color: #f0c470;*/
-}
+/*.component:hover .material-icons.link-indicator {
+  color: #f0c470;
+}*/
 
 .component:hover .material-icons.link-indicator.b1 {
   color: rgb(29,161,242);
