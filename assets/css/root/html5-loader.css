@@ -8,7 +8,7 @@
   justify-content: flex-end;
   user-select: none;
   pointer-events: none;
-  display: none;
+  /*display: none;*/
 }
 
 .white-solid {
