@@ -27,7 +27,7 @@
   color: white;
   font-size: 2em;
   animation: fados 1s forwards 0.5s;
-  /*opacity: 0;*/
+  opacity: 0;
 }
 
 .fab.comp, .fas.comp {

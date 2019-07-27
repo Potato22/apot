@@ -100,13 +100,14 @@
   width: 160px;
   display: flex;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 0px 5px 5px 0px;
   pointer-events: none;
   opacity: 0;
   visibility: collapse;
   transition: all 0.2s;
   transform: translate(-1em,0);
   color: black;
+  border-left: rgb(131,225,255) 10px solid;
 }
 
 .buttonelement:hover .tooltips {

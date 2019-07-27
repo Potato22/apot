@@ -6,7 +6,6 @@
   align-self: flex-start;
   padding: 2rem;
   border-top: 1em solid rgb(131,225,255);
-  /*border-left: 2px solid rgb(131,225,255);*/
 }
 
 .cardtitle {
@@ -71,11 +70,11 @@ code {
 }
 
 .cardgrid {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 1em;
-  /*justify-content: space-around;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  margin-bottom: 1em;
 }
 
 .cardflex {
@@ -100,7 +99,7 @@ code {
 }
 
 .thumb.block--start {
-  background: url('../../assets/img/local/potbanner.png') rgb(47,47,47);
+  background: url('../../assets/img/bg/dots.png') rgb(47,47,47);
   background-position: center;
   background-size: cover;
 }
@@ -130,13 +129,95 @@ code {
 }
 
 .thumb--flex.artgal {
-  border-left: 0px solid rgb(131,225,255);
   border-radius: 10px;
-  transition: all 0.2s 0.5s;
+  transition: all 0.2s;
 }
 
-.thumb--flex.artgal:hover {
-  border-left-width: 15px;
+.thumb--flex.artgal.grid {
+  max-width: 300px;
+  max-height: 300px;
+  margin: 0 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.richtumbcontainer {
+  /*height: 380px;*/
+  display: flex;
+  flex-direction: column;
+  /*justify-content: flex-end;*/
+}
+
+.flexlink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.thumbrich {
+  width: 300px;
+  position: relative;
+  /*background: white;*/
+  border-left: rgba(131,225,255,0.36) solid 2px;
+  padding: 5px 10px;
+  /*border-radius: 10px;*/
+  /*margin-bottom: 1.5em;*/
+  transition: all 0.2s;
+}
+
+.thumbrich > * {
+  transition: all 0.2s;
+}
+
+.thumbrich > p {
+  margin: 0;
+}
+
+.richpresence.thumbtitle {
+  font-size: 1.2em;
+  font-weight: 600;
+  font-family: 'IBM Plex Sans';
+  color: rgba(131,225,255,0.69);
+}
+
+.richpresence.thumbdesc {
+  font-family: 'Roboto';
+  font-size: 0.8em;
+  color: rgba(255,255,255,0.11);
+  font-style: italic;
+}
+
+.hr-gapper.alpha {
+  background: rgba(131,225,255,0.58);
+  margin: 0 0 0.2em 0;
+  /*width: 0%;*/
+}
+
+.hr-gapper.filler {
+  margin: 0;
+  z-index: 1;
+  background: rgb(131,225,255);
+  width: 0;
+}
+
+.flexlink:hover .thumb--flex.artgal {
+  transform: scale(1.05);
   transition-delay: 0s;
+}
+
+.flexlink:hover .thumbtitle {
+  color: rgb(131,225,255);
+}
+
+.flexlink:hover .thumbrich {
+  border-color: rgb(131,225,255);
+}
+
+.flexlink:hover .hr-gapper.filler {
+  width: 100%;
+}
+
+.flexlink:hover .richpresence.thumbdesc {
+  color: white;
 }
 

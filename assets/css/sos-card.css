@@ -9,10 +9,12 @@
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
   transition-duration: 0.3s;
   font-family: inherit;
+  margin: 0 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .component {
-  max-width: 300px;
+  min-width: 300px;
 }
 
 /* You could change the font family. */
@@ -103,9 +105,9 @@
   transition: all 0.3s;
 }
 
-/*.component:hover .material-icons.link-indicator {
-  color: #f0c470;
-}*/
+.component:hover .material-icons.link-indicator {
+  /*color: #f0c470;*/
+}
 
 .component:hover .material-icons.link-indicator.b1 {
   color: rgb(29,161,242);
@@ -129,5 +131,10 @@
   text-decoration: none;
   color: rgb(62, 62, 62);
   margin: 0px;
+}
+
+.cardimg.custom1 {
+  width: 100px;
+  height: auto;
 }
 
