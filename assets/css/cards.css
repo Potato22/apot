@@ -221,3 +221,15 @@ code {
   color: white;
 }
 
+@media (max-width: 580px) {
+  .thumb--flex.artgal.grid {
+    width: 260px;
+  }
+}
+
+@media (max-width: 580px) {
+  .thumbrich {
+    width: 260px;
+  }
+}
+
